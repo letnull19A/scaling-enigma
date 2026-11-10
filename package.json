@@ -10,6 +10,7 @@
     "start:dev": "bun --hot run src/main.ts",
     "start:debug": "bun --inspect run src/main.ts",
     "start:prod": "bun run dist/main.js",
+    "start:worker": "bun run src/worker.ts",
     "build": "tsc -p tsconfig.build.json",
     "typecheck": "tsc --noEmit",
     "format": "bunx prettier --write \"src/**/*.ts\"",
